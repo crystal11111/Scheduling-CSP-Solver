@@ -1,5 +1,15 @@
 # Scheduling-CSP-Solver
 
+---
+
+The project is organized in the following files:
+- csp.py: Contains the core CSP class and search methods.
+- constraints.py: Contains functions for all hard constraints.
+- preferences.py: Contains functions for soft constraint scoring.
+- main.py: Builds the scheduling problem instance and runs the solver.
+
+---
+
 The basic setting of the problem: 
 
 - There are two academic terms and each term has courses that run either MWF (Monday/Wednesday/Friday) or TTH (Tuesday/Thursday).
